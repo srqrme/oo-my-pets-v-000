@@ -8,8 +8,8 @@ class Owner
   end
 
   def self.all
-    @@all.each do |owner|
-      puts owner.owner
+    @@all.each do |o|
+      puts o.owner
     end
   end
 end
