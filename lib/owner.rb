@@ -20,4 +20,8 @@ class Owner
   def self.reset_all
     @@owners.clear
   end
+
+  def say_species(species)
+    puts "#{species}"
+  end
 end
