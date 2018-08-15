@@ -11,4 +11,5 @@ class Owner
     @@all.each do |owner|
       puts owner.owner
     end
+  end
 end
