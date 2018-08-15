@@ -11,8 +11,8 @@ class Owner
     @@owners << self
   end
 
-  def name=(name)
-    @name = name
+  def name
+    @name
   end
 
   def self.all
