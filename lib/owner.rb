@@ -1,9 +1,13 @@
 class Owner
 
-  OWNERS = []
+  @@owners = []
   # code goes here
 
+  def initialize(owner)
+    @@owners << self
+  end
+
   def self.all
-    OWNERS
+    @@owners
   end
 end
