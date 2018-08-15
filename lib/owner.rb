@@ -21,7 +21,7 @@ class Owner
     @@owners.clear
   end
 
-  def say_species(species)
-    puts "I am #{species}."
+  def say_species
+    puts "I am a #{species}."
   end
 end
