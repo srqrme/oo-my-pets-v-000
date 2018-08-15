@@ -32,15 +32,15 @@ class Owner
     "I am a #{species}."
   end
 
-  def buy_fish(name)
+  def buy_fish
     pets[:fishes] << Fish.new
   end
 
-  def buy_cat(name)
+  def buy_cat
     pets[:cats] << Cat.new
   end
 
-  def buy_dog(name)
+  def buy_dog
     pets[:dogs] << Dog.new
   end
 
