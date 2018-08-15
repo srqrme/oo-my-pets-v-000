@@ -1,5 +1,9 @@
 class Owner
   # code goes here
-  attr_acccessor :owner
+
   @@all = []
+
+  def initialize(self)
+    @@all << self
+  end
 end
